@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개인정보처리방침 · Privacy Policy — Riftsworn</title>
+<style>
+  :root{
+    --bg:#070b16; --panel:#131d38; --line:#24305a;
+    --ink:#eef2ff; --muted:#a3aed3; --accent:#7f9cff; --gold:#ffcf4a;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+    background:var(--bg); color:var(--ink);
+    font:16px/1.7 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Segoe UI",Roboto,sans-serif;
+    padding:40px 20px;
+  }
+  .wrap{width:100%;max-width:520px}
+  .app{font-size:13px;letter-spacing:.14em;color:var(--accent);text-transform:uppercase;margin-bottom:12px}
+  h1{font-size:26px;line-height:1.35;margin:0 0 6px;font-weight:700}
+  .sub{color:var(--muted);font-size:15px;margin:0 0 28px}
+  .choices{display:grid;gap:12px}
+  .choice{
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+    background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:18px 20px;color:var(--ink);text-decoration:none;min-height:64px
+  }
+  .choice:hover,.choice:focus-visible{border-color:var(--accent)}
+  .choice strong{font-size:17px}
+  .choice span{color:var(--muted);font-size:14px}
+  .choice::after{content:"→";color:var(--accent);font-size:20px}
+  .more{margin-top:28px;color:var(--muted);font-size:14px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="app">Jiam</div>
+  <h1>리프트스원: 균열의 서약자</h1>
+  <p class="sub" lang="en">Riftsworn</p>
+  <nav class="choices" aria-label="언어 선택 / Choose a language">
+    <a class="choice" href="./ko.html" lang="ko"><div><strong>개인정보처리방침</strong><br><span>한국어</span></div></a>
+    <a class="choice" href="./en.html" lang="en"><div><strong>Privacy Policy</strong><br><span>English</span></div></a>
+  </nav>
+  <p class="more"><a href="./delete.html">데이터 삭제 안내</a> · <a href="./delete.html#en" lang="en">Data deletion</a><br>
+  문의 / Contact: <a href="mailto:seolasoft@gmail.com">seolasoft@gmail.com</a></p>
+</main>
+</body>
+</html>
